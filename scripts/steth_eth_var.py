@@ -40,7 +40,7 @@ def make_basis_var_figure(df, var_col: str) -> go.Figure:
             x=df["date"],
             y=-df[var_col] * 100.0,  # plot magnitude of left-tail quantile
             name="14d 99% VaR of basis change (%, 720d lookback)",
-            hovertemplate="Date: %{x}<br>Basis: %{y:.3f}%<extra></extra>"
+            hovertemplate="Date: %{x}<br>VaR: %{y:.3f}%<extra></extra>"
         ),
         secondary_y=False,
     )
