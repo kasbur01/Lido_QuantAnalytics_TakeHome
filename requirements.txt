@@ -17,6 +17,7 @@ bleach==6.3.0
 certifi==2025.11.12
 cffi==2.0.0
 charset-normalizer==3.4.4
+choreographer==1.2.1
 ckzg==2.1.5
 comm==0.2.3
 cytoolz==1.1.0
@@ -40,6 +41,7 @@ hexbytes==1.3.1
 httpcore==1.0.9
 httpx==0.28.1
 idna==3.11
+iniconfig==2.3.0
 ipykernel==7.1.0
 ipython==9.8.0
 ipython_pygments_lexers==1.1.1
@@ -63,7 +65,9 @@ jupyterlab==4.5.0
 jupyterlab_pygments==0.3.0
 jupyterlab_server==2.28.0
 jupyterlab_widgets==3.0.16
+kaleido==1.2.0
 lark==1.3.1
+logistro==2.0.1
 MarkupSafe==3.0.3
 matplotlib-inline==0.2.1
 mistune==3.1.4
@@ -76,6 +80,7 @@ nest-asyncio==1.6.0
 notebook==7.5.0
 notebook_shim==0.2.4
 numpy==2.3.5
+orjson==3.11.5
 packaging==25.0
 pandas==2.3.3
 pandocfilters==1.5.1
@@ -84,6 +89,7 @@ parso==0.8.5
 pexpect==4.9.0
 platformdirs==4.5.1
 plotly==6.5.0
+pluggy==1.6.0
 prometheus_client==0.23.1
 prompt_toolkit==3.0.52
 propcache==0.4.1
@@ -95,6 +101,8 @@ pycryptodome==3.23.0
 pydantic==2.12.5
 pydantic_core==2.41.5
 Pygments==2.19.2
+pytest==9.0.2
+pytest-timeout==2.4.0
 python-dateutil==2.9.0.post0
 python-dotenv==1.2.1
 python-json-logger==4.0.0
@@ -112,6 +120,7 @@ rlp==4.1.0
 rpds-py==0.30.0
 Send2Trash==1.8.3
 setuptools==80.9.0
+simplejson==3.20.2
 six==1.17.0
 soupsieve==2.8
 stack-data==0.6.3
@@ -134,3 +143,4 @@ websocket-client==1.9.0
 websockets==15.0.1
 widgetsnbextension==4.0.15
 yarl==1.22.0
+statsmodels>=0.14

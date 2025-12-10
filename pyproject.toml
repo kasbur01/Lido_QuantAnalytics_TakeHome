@@ -1,0 +1,11 @@
+[project]
+name = "lido_takehome"
+version = "0.1.0"
+dependencies = [
+    "web3",
+    "python-dotenv",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
