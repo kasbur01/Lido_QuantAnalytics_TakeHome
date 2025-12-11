@@ -21,6 +21,11 @@ venv/
 
 # Data / outputs (adjust as needed)
 data/
-charts/
+
+# Ignore everything inside charts/
+charts/*
+# BUT keep the publish folder & keep everything inside publish/
+!charts/publish/
+!charts/publish/**
 
 .env

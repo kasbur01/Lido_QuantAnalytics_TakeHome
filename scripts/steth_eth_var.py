@@ -118,7 +118,7 @@ def main() -> None:
     fig = make_basis_var_figure(df_plot, var_col=var_col)
 
     # 6) Save HTML
-    out_dir = Path("charts")
+    out_dir = Path("charts/publish")
     out_dir.mkdir(exist_ok=True)
     out_path = out_dir / "steth_eth_basis_var.html"
     fig.write_html(out_path)
