@@ -55,7 +55,7 @@ This part implements on-chain interactions with the Curve USDC/crvUSD pool using
 ### Terminal 1 — start the fork
 
 source .env  
-anvil –fork-url “$ALCHEMY_MAINNET_URL”  
+anvil --fork-url "$ALCHEMY_MAINNET_URL"  
 
 Keep this terminal open.
 
