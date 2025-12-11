@@ -14,11 +14,14 @@ from pathlib import Path
 from typing import List, Tuple
 
 from web3 import Web3
+from web3.types import TxParams
 
 from .config import (
     CURVE_USDC_CRVUSD_POOL,
     USDC_ADDRESS,
     CRVUSD_ADDRESS,
+    CURVE_USDC_INDEX,
+    CURVE_LP_WHALE,
 )
 
 
@@ -90,15 +93,6 @@ def get_pool_balances(w3: Web3) -> Tuple[float, float]:
     return usdc_bal, crvusd_bal
 
 
-
-from web3.types import TxParams
-from .config import (
-    CURVE_USDC_CRVUSD_POOL,
-    USDC_ADDRESS,
-    CRVUSD_ADDRESS,
-    CURVE_USDC_INDEX,
-    CURVE_LP_WHALE,
-)
 
 
 def get_lp_token_contract(w3: Web3):
