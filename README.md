@@ -23,11 +23,11 @@ cp .env.example .env
 
 Fill in at minimum:
 
-ALCHEMY_MAINNET_URL=YOUR_MAINNET_RPC_URL
-LOCAL_FORK_URL=http://127.0.0.1:8545
+ALCHEMY_MAINNET_URL=YOUR_MAINNET_RPC_URL  
+LOCAL_FORK_URL=http://127.0.0.1:8545  
 
-DUNE_API_KEY=your_dune_api_key
-DUNE_QUERY_ID=6324708
+DUNE_API_KEY=your_dune_api_key  
+DUNE_QUERY_ID=6324708  
 
 Dune query used for price data:  
 https://dune.com/queries/6324708
@@ -54,15 +54,15 @@ This part implements on-chain interactions with the Curve USDC/crvUSD pool using
 
 ### Terminal 1 — start the fork
 
-source .env
-anvil –fork-url “$ALCHEMY_MAINNET_URL”
+source .env  
+anvil –fork-url “$ALCHEMY_MAINNET_URL”  
 
 Keep this terminal open.
 
 ### Terminal 2 — run scripts
 
-source .venv/bin/activate
-python -m scripts.curve_withdraw_usdc
+source .venv/bin/activate  
+python -m scripts.curve_withdraw_usdc  
 
 Or use the Jupyter notebook.
 
@@ -140,7 +140,7 @@ https://dune.com/queries/6324708
 
 Your `.env` must include:
 
-DUNE_API_KEY=your_api_key
+DUNE_API_KEY=your_api_key  
 DUNE_QUERY_ID=6324708
 
 ---
@@ -169,11 +169,11 @@ charts/steth_eth_basis_var.html
 
 Example console output:
 
-=== stETH/ETH 14-Day 99% Historical VaR (720d lookback) ===
-Latest date:             YYYY-MM-DD
-Current basis:           +X.XX%
-14d 99% VaR (magnitude): Y.YY%
-Interactive chart saved to: charts/steth_eth_basis_var.html
+=== stETH/ETH 14-Day 99% Historical VaR (720d lookback) ===  
+Latest date:             YYYY-MM-DD  
+Current basis:           +X.XX%  
+14d 99% VaR (magnitude): Y.YY%  
+Interactive chart saved to: charts/steth_eth_basis_var.html  
 
 ---
 
